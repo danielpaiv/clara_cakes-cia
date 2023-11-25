@@ -1,10 +1,10 @@
 body{
     color: rgb(16, 15, 15);
-    background-color: rgb(244, 241, 235);
+    background-color: rgb(141, 221, 227);
     font-family: Arial, Helvetica, sans-serif;
 }
 nav{
-    background-color: rgb(248, 128, 8);
+    background-color: rgb(141, 221, 227);
 }
 
 ul{
@@ -21,8 +21,10 @@ a{
 }
 
 header img{
-    width: 980px;
-    height: 480px;
+    width: 250px;
+    height: 250px;
+    border-radius: 40%;
+    border: 5px solid rgb(141, 221, 227);
     
 }
 
@@ -31,7 +33,12 @@ header img{
 }
 
 h1{
-    color: rgb(42, 160, 31);
+    color: rgb(248, 124, 0);
+    text-align: center;
+}
+h2{
+    font-size: 15px;
+    text-align: center;
 }
 
 footer img{
@@ -67,7 +74,7 @@ main{
 }
 .buton{
         
-    background-image: linear-gradient(to right,rgb(173, 220, 20), rgb(55, 125, 29));
+    background-image: linear-gradient(to right,rgb(173, 220, 20), rgb(248, 124, 0));
     width: 100%;
     border: none;
     padding: 10px;
@@ -78,5 +85,5 @@ main{
 }
 .buton:hover
 {
-    background-image: linear-gradient(to right,rgb(55, 125, 29), rgb(173, 220, 20));
+    background-image: linear-gradient(to right,rgb(248, 124, 0), rgb(173, 220, 20));
 }
