@@ -89,13 +89,13 @@ main{
 }
 @media screen and (max-width: 768px) {
     body{
-       
+       background-color: blue;
         width: 98%;
     }
 }
 @media screen and (max-width: 600px) {
     body{
-        
+        background-color: green;
         width: 100%;
         padding: 10px;
     }
